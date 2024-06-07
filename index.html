@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dentoluxe</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body id="top">
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+   <!--<div class="header-top">
+      <div class="container">
+        <ul class="contact-list">
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:info@example.com" class="contact-link">info@dentoluxe.com</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+91-9004651454" class="contact-link">+91-9004651454</a>
+          </li>
+          
+        </ul>
+
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>-->
+
+    <div class="header-top" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./assets/images/nobglogo.png" alt="Logo">
+        </a>
+  
+        <nav class="navbar container sticky-navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+            <li>
+              <a href="#service" class="navbar-link" data-nav-link>Services</a>
+            </li>
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+            <li>
+              <a href="#testimonials" class="navbar-link" data-nav-link>Testimonials</a>
+            </li>
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+            </li>
+            <a href="contact.html" class="btn">Book appointment</a>
+          </ul>
+        </nav>
+  
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" 
+        aria-label="hero"><!-- style="background-image: url('./assets/images/hero-bg.png')-->
+        <div class="container">
+          <div class="hero-content">
+            <p class="section-subtitle">Welcome To Dentoluxe</p>
+
+            <h1 class="h1 hero-title" > Best Dental Clinic in Mumbai</h1>
+
+            <p class="hero-text">
+             <!--We pride ourselves on providing affordable yet high quality
+              dental care with a warm and welcoming environment .Our clinic is
+              designed to make you feel relaxed and at ease with a friendly
+              team ready to assist you.We prioritize the highest standards of
+              sterilization to ensure your safety and well-being.Led by Dr
+              Richa who will ensure a comfortable and pain-free treatment
+              solutions making us one of the best dental clinics in Mumbai.--> 
+            </p>
+          </div>
+
+          <!--<figure class="hero-banner">
+            <img src="./assets/images/ss1.jpg" width="600" height="1000" alt="hero banner" class="w-100" />
+          </figure>-->
+        </div>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+          <p class="section-subtitle text-center">Our Services</p>
+
+          <h2 class="h2 section-title text-center">What We Provide</h2>
+
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100" />
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Root Canal</h3>
+
+                  <p class="card-text">
+                    Root canal treatment, also known as endodontic therapy, is a dental procedure aimed at saving a
+                    severely damaged or infected tooth by removing the infected pulp tissue from the tooth's interior.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100" />
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Teeth Whitening</h3>
+
+                  <p class="card-text">
+                    Teeth whitening is a cosmetic dental procedure aimed at brightening and lightening the color of
+                    teeth. Teeth whitening can enhance the appearance of teeth, boosting confidence and improving
+                    overall smile aesthetics.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100" />
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Braces And Aligners</h3>
+
+                  <p class="card-text">
+                    Braces and aligners are orthodontic devices used to straighten and align teeth, improving both
+                    dental aesthetics and functionality.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="service-banner">
+              <figure>
+                <img src="./assets/images/service-banner.png" width="409" height="467" loading="lazy"
+                  alt="service banner" class="w-100" />
+              </figure>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/ss4.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100" />
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Implants</h3>
+
+                  <p class="card-text">
+                    Dental implants are titanium posts surgically placed into the jawbone beneath the gum line to serve
+                    as artificial tooth roots.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/ss5.svg" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100" />
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Smile Makeover</h3>
+
+                  <p class="card-text">
+                    A Smile Makeover is a comprehensive dental treatment aimed at enhancing the appearance of a person's
+                    smile.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-6.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100" />
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Scaling and Polishing</h3>
+
+                  <p class="card-text">
+                    Scaling and polishing is an essential dental procedure aimed at removing plaque, tartar, and stains
+                    from the teeth surfaces. This preventive treatment not only enhances oral hygiene but also helps
+                    prevent gum disease and tooth decay.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <figure class="about-banner">
+            <img src="./assets/images/ss2.jpg" width="470" height="538" loading="lazy" alt="about banner"
+              class="w-100" />
+          </figure>
+
+          <div class="about-content">
+            <!-- <p class="section-subtitle">About Us</p> -->
+
+            <h2 class="h2 section-title">About Us</h2>
+
+            <p class="section-text section-text-1">
+              Graduated from one of the most esteemed dental colleges, TERNA
+              DENTAL COLLEGE with over a decade of unwavering dedication to
+              dental excellence, Dr. Richa leads our team as a distinguished
+              practitioner in the field of dentistry. She has been trained and
+              worked with some of the renowned celebrity dentists in Mumbai to
+              enhance her cosmetic skills and stay updated with the latest
+              technologies dentistry. Her expertise covers a comprehensive
+              range of dental services like cosmetic dentistry, pediatric and
+              family dentistry,restorative treatments and Implant
+              dentistry.
+            </p>
+
+            <p class="section-text">
+              Beyond her technical proficiency, Dr. Richa fosters a
+              warm and welcoming environment where she takes the time to
+              listen to each patient's concerns, providing tailored solutions
+              ensuring that our patients receive the highest standard of care
+              backed by the latest innovations in the field.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #Testiominal
+      -->
+      <section class="testimonial-section" id="testimonials">
+        <h2 class="testimonial-title">Testimonials</h2>
+        <div class="carousel-container">
+          <button class="carousel-button prev">&lt;</button>
+          <div class="video-carousel">
+            <div class="video-container">
+              <iframe src="https://youtube.com/shorts/Py-sRzK_3_Q?si=JIXsFBchGvUjF2m7" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/Py-sRzK_3_Q?si=JIXsFBchGvUjF2m7" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/lzuiuRgwwrc?si=HjnxCfmyMGjdoa7k" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/lzuiuRgwwrc?si=HjnxCfmyMGjdoa7k" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/lzuiuRgwwrc?si=HjnxCfmyMGjdoa7k" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <button class="carousel-button next">&gt;</button>
+        </div>
+      </section>
+
+      <!-- 
+        - #CTA
+      -->
+
+      
+
+      <!-- 
+        - #BLOG
+      -->
+
+
+
+      <!-- 
+    - #FOOTER
+  -->
+
+      <footer class="footer">
+        <div class="footer-top section">
+          <div class="container">
+            <div class="footer-brand">
+              <p class="footer-list-title">Opening Hours</p>
+
+              <!-- <p class="footer-text">
+                Mauris non nisi semper, lacinia neque in, dapibus leo. Curabitur
+                sagittis libero tincidunt tempor finibus. Mauris at dignissim
+                ligula, nec tristique orci.Quisque vitae metus.
+              </p> -->
+
+              <div class="schedule">
+                <div class="schedule-icon">
+                  <ion-icon name="time-outline"></ion-icon>
+                </div>
+
+                <span class="span">
+                  Monday - Saturday:<br />
+                  9:00am - 10:00pm<br>
+                  Sunday : On Appointment Basis<br />
+                </span>
+              </div>
+            </div>
+            <ul class="footer-list" id="contact">
+              <li>
+                <p class="footer-list-title">Contact Us</p>
+              </li>
+
+              <li class="footer-item">
+                <div class="item-icon">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+
+                <address class="item-text">
+                  1st floor, 108, Esperanza building, above HDFC bank, Dr
+                  Babasaheb Ambedkar Road, Lalbaug,<br />
+                  Mumbai-400012
+                </address>
+              </li>
+
+              <li class="footer-item">
+                <div class="item-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <a href="tel:+91-9004651454" class="footer-link">+91-9004651454</a>
+              </li>
+
+              <li class="footer-item">
+                <div class="item-icon">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+
+                <a href="mailto:help@example.com" class="footer-link">info@dentoluxe.com</a>
+              </li>
+            </ul>
+            <div class="map">
+              <span class="putmap">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60350.343773592795!2d72.79369602677819!3d19.02428249013575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfcaec590503%3A0xc0ccb4747670c093!2sHDFC%20Bank!5e0!3m2!1sen!2sin!4v1714665123654!5m2!1sen!2sin"
+                  width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="copyright">
+              &copy; 2024 All Rights Reserved by codewithsadee.
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <!-- 
+    - #BACK TO TOP
+  -->
+
+       <!--<a href="https://wa.me/919004651454" target="_blank" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <img src="./assets/images/whatsapplogo.png" alt="WhatsApp Logo" width="40" height="40">
+      </a> -->
+
+      <!-- 
+    - custom js link
+  -->
+      <script src="./assets/js/script.js" defer></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
